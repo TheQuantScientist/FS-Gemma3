@@ -1,0 +1,49 @@
+{
+  "symbol": "META",
+  "lookback": 14,
+  "horizon": 28,
+  "test_start": "2025-05-28",
+  "n_valid_windows": 150,
+  "parse_failures": 5,
+  "date_range": [
+    "2025-05-28",
+    "2026-01-07"
+  ],
+  "metrics_per_step": [
+    {
+      "horizon_step": 1,
+      "mae": 20.08908,
+      "rmse": 37.95847511391011,
+      "mape": 3.045350514389503,
+      "n_samples": 150
+    },
+    {
+      "horizon_step": 7,
+      "mae": 36.05764666666666,
+      "rmse": 52.058787093502914,
+      "mape": 5.414350750071206,
+      "n_samples": 150
+    },
+    {
+      "horizon_step": 14,
+      "mae": 47.65564666666667,
+      "rmse": 61.94723467150626,
+      "mape": 7.0990580701817105,
+      "n_samples": 150
+    },
+    {
+      "horizon_step": 21,
+      "mae": 53.23458,
+      "rmse": 69.56074421180382,
+      "mape": 7.933629188046759,
+      "n_samples": 150
+    },
+    {
+      "horizon_step": 28,
+      "mae": 58.307700000000004,
+      "rmse": 76.26247585398733,
+      "mape": 8.711106249219396,
+      "n_samples": 150
+    }
+  ]
+}

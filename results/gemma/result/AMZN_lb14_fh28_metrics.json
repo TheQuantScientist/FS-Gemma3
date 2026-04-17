@@ -1,0 +1,49 @@
+{
+  "symbol": "AMZN",
+  "lookback": 14,
+  "horizon": 28,
+  "test_start": "2025-05-28",
+  "n_valid_windows": 150,
+  "parse_failures": 5,
+  "date_range": [
+    "2025-05-28",
+    "2026-01-07"
+  ],
+  "metrics_per_step": [
+    {
+      "horizon_step": 1,
+      "mae": 3.860133333333334,
+      "rmse": 5.760895340135941,
+      "mape": 1.7085192548687413,
+      "n_samples": 150
+    },
+    {
+      "horizon_step": 7,
+      "mae": 7.894133333333333,
+      "rmse": 10.32466645788941,
+      "mape": 3.4699762971135293,
+      "n_samples": 150
+    },
+    {
+      "horizon_step": 14,
+      "mae": 9.11318,
+      "rmse": 11.558510947061187,
+      "mape": 3.97401635299618,
+      "n_samples": 150
+    },
+    {
+      "horizon_step": 21,
+      "mae": 10.49898,
+      "rmse": 13.37215312580588,
+      "mape": 4.607805548358287,
+      "n_samples": 150
+    },
+    {
+      "horizon_step": 28,
+      "mae": 13.936793333333334,
+      "rmse": 19.08670870614767,
+      "mape": 6.216685966367137,
+      "n_samples": 150
+    }
+  ]
+}

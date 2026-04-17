@@ -1,0 +1,49 @@
+{
+  "symbol": "SPGI",
+  "lookback": 21,
+  "horizon": 28,
+  "test_start": "2025-05-28",
+  "n_valid_windows": 154,
+  "parse_failures": 1,
+  "date_range": [
+    "2025-05-28",
+    "2026-01-07"
+  ],
+  "metrics_per_step": [
+    {
+      "horizon_step": 1,
+      "mae": 8.796766233766235,
+      "rmse": 16.74238474146288,
+      "mape": 1.7458336970243535,
+      "n_samples": 154
+    },
+    {
+      "horizon_step": 7,
+      "mae": 15.53717532467532,
+      "rmse": 24.36465816692098,
+      "mape": 3.0702170473610866,
+      "n_samples": 154
+    },
+    {
+      "horizon_step": 14,
+      "mae": 21.8495,
+      "rmse": 30.57864857492612,
+      "mape": 4.2908182167569375,
+      "n_samples": 154
+    },
+    {
+      "horizon_step": 21,
+      "mae": 27.91690909090909,
+      "rmse": 37.11350529557503,
+      "mape": 5.491560670015877,
+      "n_samples": 154
+    },
+    {
+      "horizon_step": 28,
+      "mae": 38.26941558441559,
+      "rmse": 51.55127724304812,
+      "mape": 7.83389443440473,
+      "n_samples": 154
+    }
+  ]
+}
