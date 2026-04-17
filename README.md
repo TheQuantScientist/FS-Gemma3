@@ -1,9 +1,5 @@
 # FS-Gemma3: Stock Price Prediction with Small Language Model
 
-A framework for zero-shot stock price forecasting using the Gemma 3 4B small language model via Ollama. The pipeline performs multi-lookback forecasting, rigorous evaluation, and realistic non-overlapping backtesting with transaction costs.
-
-## Overview
-
 This project investigates the capability of small language models (SLMs) for financial time series forecasting. Using Gemma 3 (4B parameters), the system predicts 28-day ahead daily closing prices given structured historical OHLCV data. Predictions are evaluated using standard regression metrics and translated into trading performance via a non-overlapping long-only backtester.
 
 ## Project Structure
