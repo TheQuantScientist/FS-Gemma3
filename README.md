@@ -15,7 +15,7 @@ thequantscientist-fs-gemma3/
 │   ├── backtest.py          # Non-overlapping backtesting engine
 │   ├── analytics.py         # Results aggregation and insight generation
 │   ├── tradition.py         # Traditional baseline models
-│   └── delete.py            # Utility scripts
+│   ├── transformers.py      # Transformer models benchmarking
 └── results/
     ├── gemma/
     │   ├── result/          # Raw predictions and per-configuration metrics (JSON)
